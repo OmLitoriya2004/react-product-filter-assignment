@@ -6,7 +6,7 @@ A React-based product table with dynamic filtering, editing, and deletion featur
 
 ## Live Demo
 
-🔗 [Click to View Deployed App](https://react-product-filter-assignment.vercel.app)
+🔗 [Click to View Deployed Application](https://react-product-filter-assignment.vercel.app)
 
 ---
 
@@ -64,5 +64,18 @@ fetch-api/
 └── .gitignore                  # Files/folders to ignore in Git
 ```
 
+## 🛠️ Getting Started
 
-
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/OmLitoriya2004/react-product-filter-assignment.git
+   cd fetch-api
+   ```
+2. **Install dependencies**
+  ```bash
+  npm install
+  ```
+3.**Start the app**
+  ```bash
+  npm run dev
+  ```
