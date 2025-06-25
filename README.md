@@ -45,21 +45,24 @@ A React-based product table with dynamic filtering, editing, and deletion featur
 ---
 
 ## 📁 Project Structure
+```bash
 fetch-api/
-├── public/                      # Static assets (if any)
+├── public/                     # Static assets (e.g., favicon, index.html content)
 ├── src/
 │   ├── components/
-│   │   └── ProductsData.jsx     # Renders each product as a row in table
+│   │   └── ProductsData.jsx    # Renders each product as a row in the table
 │   ├── libs/
-│   │   ├── api.js               # Contains API functions using Promise + setTimeout
-│   │   └── products.js          # Stored dummy product data from the mentioned api
-│   ├── App.jsx                  # Main component with table, filters, logic...
-│   ├── App.css                  # Styling for table, buttons....
-│   └── main.jsx                 
-├── index.html                   
-├── package.json                 # Project dependencies and scripts
-├── vite.config.js               # Vite config
-├── README.md                    # Project documentation
-└── .gitignore                   # Git ignored files
+│   │   ├── api.js              # Mock API functions using Promise + setTimeout
+│   │   └── products.js         # Locally stored dummy product data
+│   ├── App.jsx                 # Main component: table, filters, editable fields
+│   ├── App.css                 # Styling for the table, buttons, inputs
+│   └── main.jsx                # Entry point that mounts the App
+├── index.html                  # Main HTML file for Vite
+├── package.json                # Project dependencies and scripts
+├── vite.config.js              # Vite configuration
+├── README.md                   # Project documentation
+└── .gitignore                  # Files/folders to ignore in Git
+```
+
 
 
